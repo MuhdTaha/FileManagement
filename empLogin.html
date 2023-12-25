@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Employee Login </title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+			font-size: 14px;
+			color: #333;
+			margin: 0;
+			padding: 0;
+		}
+		
+		header {
+			background-color: #222;
+			color: #fff;
+			text-align: center;
+			padding: 20px;
+		}
+		
+		h1 {
+			font-size: 28px;
+			margin: 0;
+		}
+		
+		form {
+			max-width: 400px;
+			margin: 0 auto;
+			background-color: #fff;
+			padding: 30px;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.3);
+		}
+		
+		input[type="email"],
+		input[type="password"] {
+			display: block;
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			font-size: 16px;
+			font-family: Arial, sans-serif;
+			color: #333;
+			box-sizing: border-box;
+		}
+		
+		input[type="submit"] {
+			background-color: #222;
+			color: #fff;
+			border: none;
+			padding: 10px 20px;
+			font-size: 16px;
+			font-family: Arial, sans-serif;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		input[type="submit"]:hover {
+			background-color: #333;
+		}
+		
+		footer {
+			background-color: #222;
+			color: #fff;
+			text-align: center;
+			padding: 20px;
+			font-size: 12px;
+		}
+		
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Employee Login Page</h1>
+	</header>
+	
+	<div class="container">
+		<form action="empLogin.jsp" method="post">
+			<label for="emp_Email">Email:</label>
+			<input type="email" name="emp_Email" id="emp_Email" required>
+			
+			<label for="emp_Password">Password:</label>
+			<input type="password" name="emp_Password" id="emp_Password" required>
+			
+			<input type="submit" value="Log In">
+		</form>
+	</div>
+	
+	<footer>
+	</footer>
+</body>
+</html>
