@@ -4,7 +4,7 @@
 
 The primary goal of this Android application is to provide users with a dictionary tool that allows them to search for word meanings efficiently. The app is designed using Kotlin and incorporates the Dictionary API for retrieving accurate and up-to-date word definitions. The user interface is crafted using XML, featuring an intuitive design that enhances the overall user experience. Key functionalities include word search, display of phonetics, and a comprehensive list of meanings.
 
-## Security Defense Strategies
+## Features
 
 - **Dictionary API Integration:** The app seamlessly integrates with a Dictionary API to fetch word meanings, ensuring users receive accurate and reliable information.
 
